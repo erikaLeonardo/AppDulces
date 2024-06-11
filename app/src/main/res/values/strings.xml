@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CRUDErika</string>
+    <string name="str_btn_recuperar_contra"><u>¿Has olvidado la contraseña?</u></string>
+    <string name="str_btn_crear_cuenta"><u>Registrate</u></string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recuperarContrasenia"
+    >
+
+    <Button
+        android:id="@+id/btn_ingresar_correo"
+        android:layout_width="210dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#8D5EE1"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingresar Correo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_recuperar_email" />
+
+    <EditText
+        android:id="@+id/txt_recuperar_email"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Ingrese correo electrónico"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Tex" />
+
+    <TextView
+        android:id="@+id/Tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="Recuperar Contraseña"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

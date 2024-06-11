@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897666096288",
+    "project_id": "mylogin1-2023eala",
+    "storage_bucket": "mylogin1-2023eala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897666096288:android:01bfda3283f7ff362b3dc5",
+        "android_client_info": {
+          "package_name": "com.tesji.dulceskikaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByTobZWI6jcvnEaXjHg0NXhRHs5SDiHeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
